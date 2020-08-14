@@ -1,19 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
+
+
 .rect {
 	margin: auto;
 	width: 50%;
-	background-color: green;
+	background-color: #F1EAE2;
 	padding: 70px;
 	display: flex;
 	justify-content: center;
 	position: relative;
-	transform: translate(0, 50%);
+	transform: translate(0, 170%);
 }
 
 p {
 	font-family: "Play", sans-serif;
+	margin-left: 20px;
 	font-size: 30px;
-	color: white;
-	text-align: center;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
 }
+
+body {
+	margin:0;
+}
+
+.header {
+		overflow: hidden;
+		background-color: #A4E8E0;
+		padding: 20px 10px;
+		font-family: "Play", sans-serif;
+		
+}
+
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px; 
+	line-height: 25px;
+	border-radius: 4px;
+	font-family: "Play", sans-serif;
+  }
+  
+  .links {
+	  padding:12px;
+  }
+  img {
+	  justify-content: space-around;
+	  padding:0 !important;
+	  float: left;
+  }
+
+  a:hover img {
+	/* opacity: 20; */
+	background-color:#A4E8E0;
+	padding:0 !important;
+  }
+  
+  .header a:hover {
+	background-color: #7C848C;
+	color: whitesmoke;
+  }
+  
+  .header a.active {
+	background-color: #06BCC4;
+	color: white;
+	font-family: "Play", sans-serif;
+	padding:12px;
+  }
+  
+  .header-right {
+	float: right;
+  }
+
+  @media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	
+	.header-right {
+	  float: none;
+	}
+  }
+
+
+  .icon-bar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+  }
+  
+  .icon-bar a {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+	background-color: #000;
+  }
+  
+  .active {
+	/* background-color: #4CAF50; */
+	background-color: #06BCC4;
+  } 
